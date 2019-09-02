@@ -7,4 +7,8 @@ public class ApplicationRes {
     private String errorCode;
     private String errorMessage;
     private String exception;
+
+    public String getMessage() {
+        return message;
+    }
 }
